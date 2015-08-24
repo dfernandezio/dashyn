@@ -14,4 +14,4 @@ The code here is broken down in two parts:
 2. The messaging commands themselves. At the moment just email (using MailGun) which combined with IFTTT.COM capabilities can provide additional alert mediums such as PushBullet and the Twilio API to send SMS.
 
 Architecture Diagram:
-![](http://i60.tinypic.com/qqx1t3.png)
+![](http://i57.tinypic.com/1pjjo4.png)
