@@ -1,0 +1,12 @@
+import requests
+
+request=requests.post(
+    "https://api.mailgun.net/v3/[YOUR-MAILGUN-HOST.mailgun.org/messages",
+    auth=("api", "key-[YOUR API KEY]"),
+    data={"from": "samplemail@mail.com", #Email you will set your IFTTT Triger For
+          "to": "your@mail.com", #Your email or desired recipient acount (Must be the same as IFTTT Gmail Channel)
+          "subject": "Dashyn Alert",
+          "text": "An Emergency has been triggered by the user!"})
+
+print "Status: {0}".format(request.status_code)
+print "Body:   {0}".format(request.text)
