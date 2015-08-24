@@ -1,5 +1,4 @@
-# dashyn
-Amazon Dash Sandbox
+
 # Dashyn
 
 This is a quick Sunday project inspired and mostly leveraging the code from Ted Benson's initial Amazon Dash Hack(http://medium.com/@eduardbenson) 
